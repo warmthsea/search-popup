@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.4.29",
-    "vue-search-popup": "workspace:^"
+    "@vue-search-popup/core": "workspace:^",
+    "vue": "^3.4.29"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",

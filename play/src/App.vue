@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import VueSearchPopup from 'vue-search-popup'
+import VueSearchPopup from '@vue-search-popup/core'
 </script>
 
 <template>
   <div>
-    <VueSearchPopup />
+    <VueSearchPopup name="xiaoming" />
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo">
     </a>
