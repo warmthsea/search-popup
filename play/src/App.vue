@@ -4,7 +4,7 @@ import VueSearchPopup from '@vue-search-popup/core'
 
 <template>
   <div>
-    <VueSearchPopup name="xiaoming" />
+    <VueSearchPopup name="1" />
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo">
     </a>

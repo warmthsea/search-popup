@@ -1,6 +1,5 @@
 {
   "name": "@vue-search-popup/core",
-  "version": "0.0.1",
   "private": false,
   "license": "MIT",
   "main": "index.ts"

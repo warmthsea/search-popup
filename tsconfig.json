@@ -1,13 +1,16 @@
 {
   "compilerOptions": {
-    "target": "es2016",
-    "module": "commonjs",
+    "module": "CommonJS",
     "strict": true,
+    "outDir": "dist",
+    "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true
   },
   "include": [
-    "packages"
-  ]
+    "packages",
+    "types"
+  ],
+  "exclude": ["node_modules", "dist"]
 }
