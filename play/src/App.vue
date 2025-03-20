@@ -1,9 +1,12 @@
 <script setup lang="ts">
+// import VueSearchPopup from 'vue-search-popup'
 import VueSearchPopup from '@vue-search-popup/core'
+
+// import '../../dist/style.css'
 </script>
 
 <template>
-  <div>
+  <div class="bg-amber-50">
     <VueSearchPopup name="1" />
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo">
